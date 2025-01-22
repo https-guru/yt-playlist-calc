@@ -1,4 +1,4 @@
-```markdown
+
 # YouTube Playlist Length Calculator - Telegram Bot
 
 A Telegram bot built with Python to calculate the total duration and average length of videos in YouTube playlists. Share a playlist link with the bot, and it will return the total duration (in hours and minutes) and the average duration per video.
@@ -16,7 +16,7 @@ A Telegram bot built with Python to calculate the total duration and average len
 ```bash
 git clone https://github.com/yourusername/yt-playlist-length-calculator.git
 cd yt-playlist-length-calculator
-```
+
 
 ### 2. Install Dependencies
 Install the required Python libraries:
