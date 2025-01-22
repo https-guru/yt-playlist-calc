@@ -17,7 +17,7 @@ This Telegram bot, built with Python, calculates the total duration and average 
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/yourusername/yt-playlist-length-calculator.git](https://github.com/https-guru/yt-playlist-calc)
+git clone https://github.com/https-guru/yt-playlist-calc
 cd yt-playlist-length-calculator
 ```
 
