@@ -1,12 +1,15 @@
-```markdown
+---
+
 # YouTube Playlist Length Calculator - Telegram Bot
 
-A Telegram bot built with Python to calculate the total duration and average length of videos in YouTube playlists. Share a playlist link with the bot, and it will return the total duration (in hours and minutes) and the average duration per video.
+This Telegram bot, built with Python, calculates the total duration and average length of videos in YouTube playlists. Share a playlist link with the bot, and it will return the total duration (in hours and minutes) and the average duration per video.
+
+---
 
 ## Features
-- **Total Video Duration**: Calculates the total duration of all videos in a playlist.
-- **Average Video Duration**: Calculates the average duration per video in the playlist.
-- **Flexible URL Parsing**: Handles various YouTube playlist URL formats, including those with extra parameters.
+- **Total Video Duration**: Calculates the total duration of all videos in a playlist.  
+- **Average Video Duration**: Computes the average duration per video in the playlist.  
+- **Flexible URL Parsing**: Handles various YouTube playlist URL formats, including URLs with additional parameters.
 
 ---
 
@@ -14,7 +17,7 @@ A Telegram bot built with Python to calculate the total duration and average len
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/yt-playlist-length-calculator.git
+git clone [https://github.com/yourusername/yt-playlist-length-calculator.git](https://github.com/https-guru/yt-playlist-calc)
 cd yt-playlist-length-calculator
 ```
 
@@ -26,7 +29,7 @@ pip install -r requirements.txt
 
 ### 3. Set Up Environment Variables
 Create a `.env` file in the project directory and add your **Telegram Bot Token** and **YouTube API Key**:
-```
+```plaintext
 TELEGRAM_TOKEN=your_telegram_bot_token
 YOUTUBE_API_KEY=your_youtube_api_key
 ```
@@ -38,27 +41,31 @@ YOUTUBE_API_KEY=your_youtube_api_key
 ### Running the Bot Locally
 Start the bot with the following command:
 ```bash
-python yt-playlist-calc.py
+python bot.py
 ```
 
 ### Interacting with the Bot
-1. Use the `/start` command to get a welcome message.
-2. Send a YouTube playlist link in a message.
+1. Use the `/start` command to get a welcome message.  
+2. Send a YouTube playlist link as a message.  
 3. The bot will reply with:
-   - Total duration of the playlist.
-   - Average video duration.
-   - Total number of videos.
+   - The **total duration** of the playlist.  
+   - The **average video duration**.  
+   - The **total number of videos**.
 
 ---
 
 ## Deployment
 
-You can deploy the bot to a free cloud service like [Render](https://render.com).  
-### Deployment Steps:
-1. Create a **new web service** on Render.
-2. Use this repository as the source.
-3. Configure the environment variables (`TELEGRAM_TOKEN` and `YOUTUBE_API_KEY`) in the Render dashboard.
-4. Use `start.sh` as the start command to run the bot.
+You can deploy the bot to a cloud service like [Render](https://render.com).  
+
+### Deployment Steps
+1. Create a **new web service** on Render.  
+2. Use this repository as the source.  
+3. Configure the environment variables (`TELEGRAM_TOKEN` and `YOUTUBE_API_KEY`) in the Render dashboard.  
+4. Set the **start command** to:
+   ```bash
+   ./start.sh
+   ```
 
 ---
 
@@ -75,7 +82,8 @@ You can deploy the bot to a free cloud service like [Render](https://render.com)
 ---
 
 ## Requirements
-The project uses the following Python libraries:
+
+The bot requires the following Python libraries:
 - `python-telegram-bot==20.3`  
 - `google-api-python-client`  
 - `requests`  
