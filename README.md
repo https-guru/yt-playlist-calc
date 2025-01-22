@@ -72,7 +72,7 @@ You can deploy the bot to a cloud service like [Render](https://render.com).
 ## Project Structure
 ```plaintext
 .
-├── bot.py                # Main bot script
+├── yt-playlist-calc.py   # Main bot script
 ├── requirements.txt      # Dependencies
 ├── start.sh              # Start script for deployment
 ├── .env                  # Environment variables (not included in the repository)
@@ -87,7 +87,8 @@ The bot requires the following Python libraries:
 - `python-telegram-bot==20.3`  
 - `google-api-python-client`  
 - `requests`  
-- `python-dotenv`  
+- `python-dotenv` 
+- `isodate` 
 
 Ensure these dependencies are installed before running the bot.
 
