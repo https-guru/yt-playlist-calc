@@ -56,16 +56,16 @@ python bot.py
 
 ## Deployment
 
-You can deploy the bot to a cloud service like [Render](https://render.com).  
+You can deploy the bot to a cloud service like [PythonAnywhere](https://www.pythonanywhere.com).  
 
-### Deployment Steps
-1. Create a **new web service** on Render.  
+<!-- ### Deployment Steps
+1. Create a **new web service** on Render.
 2. Use this repository as the source.  
 3. Configure the environment variables (`TELEGRAM_TOKEN` and `YOUTUBE_API_KEY`) in the Render dashboard.  
 4. Set the **start command** to:
    ```bash
    ./start.sh
-   ```
+   ``` -->
 
 ---
 
