@@ -1,2 +1,2 @@
 #!/bin/bash
-python yt-playlist-calc.py
+python bot.py
