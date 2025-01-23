@@ -72,7 +72,7 @@ You can deploy the bot to a cloud service like [Render](https://render.com).
 ## Project Structure
 ```plaintext
 .
-├── yt-playlist-calc.py   # Main bot script
+├── bot.py                # Main bot script
 ├── requirements.txt      # Dependencies
 ├── start.sh              # Start script for deployment
 ├── .env                  # Environment variables (not included in the repository)
